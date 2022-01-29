@@ -2718,10 +2718,11 @@
 	 * @public
 	 */
 	Autoplay.Defaults = {
-		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplay: true,
+		autoplayTimeout: 2500,
 		autoplayHoverPause: false,
-		autoplaySpeed: false
+		autoplaySpeed: false,
+        slideTransition: 'linear',
 	};
 
 	/**
